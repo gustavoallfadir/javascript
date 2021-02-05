@@ -11,7 +11,7 @@ Return YES, if Vasya can sell a ticket to every person and give change with the 
 at that moment. Otherwise return NO.*/
 
 function tickets(peopleInLine){
-    let bills = {25:0,50:0,100:0}
+    let bills = {25:0, 50:0, 100:0}
     for (let i in peopleInLine) {
         if (peopleInLine[i] === 25) {
             bills[25] += 1;
